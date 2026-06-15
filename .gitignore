@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/venv/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Local databases
+*.db
+backend/restaurant.db
+
+# Python caches and compiles
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+backend/*/__pycache__/
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
